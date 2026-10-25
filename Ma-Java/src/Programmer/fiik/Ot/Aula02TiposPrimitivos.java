@@ -1,5 +1,5 @@
 package Programmer.fiik.Ot;
-//Author: Otávio Lisboa | 25/10/26 | 02:24AM
+//Author: Otávio Lisboa | 25/10/26 | 02:37AM
 public class Aula02TiposPrimitivos {
     static void main() {
         //  int, double, float, char, byte, short, long, boolean
@@ -12,11 +12,12 @@ public class Aula02TiposPrimitivos {
         boolean verdadeiro = true;
         boolean falso = false;
         char caractere = '\u0041';
+        String nome = "Os valores acima são de tipos primitivos...";
 
         System.out.println("a idade é "+idadeInt+" anos");
         System.out.println(falso);
         System.out.println("char "+caractere);
-        System.out.println(salarioFloat);
         System.out.println(numeroGrande);
+        System.out.println("Olá, tudo bem? "+nome);
     }
 }
