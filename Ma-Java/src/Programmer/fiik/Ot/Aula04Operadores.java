@@ -1,5 +1,5 @@
 package Programmer.fiik.Ot;
-//Author: Otávio Lisboa | 25/10/26 | 19:33M
+//Author: Otávio Lisboa | 25/10/26 | 19:51M
 public class Aula04Operadores {
     public static void main(String[] args) {
         // + - / *
@@ -32,5 +32,10 @@ public class Aula04Operadores {
         System.out.println("isDentroDaLeiMaiorQueTrinta "+isDentroDaLeiMaiorQueTrinta);
         System.out.println("isDentroDaLeimenorQueTrinta "+isDentroDaLeiMenorQueTrinta);
 
+        double ValorTotalContaCorrente = 200;
+        double ValorTotalContaPoupanca = 10000;
+        float ValorPlaystation = 5000;
+        boolean isPlaystation5Compravel = ValorTotalContaCorrente > ValorPlaystation || ValorTotalContaPoupanca > ValorPlaystation;
+        System.out.println("Play 5 vai ser compravel?? "+isPlaystation5Compravel);
     }
 }
