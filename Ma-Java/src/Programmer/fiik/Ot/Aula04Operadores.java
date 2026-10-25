@@ -1,5 +1,5 @@
 package Programmer.fiik.Ot;
-//Author: Otávio Lisboa | 25/10/26 | 19:51M
+//Author: Otávio Lisboa | 25/10/26 | 20:11AM
 public class Aula04Operadores {
     public static void main(String[] args) {
         // + - / *
@@ -18,6 +18,7 @@ public class Aula04Operadores {
         boolean isDezIgualVinte = 10 == 20;
         boolean isDezIgualDez = 10 == 10;
         boolean isDezDiferenteDez = 10 != 10;
+
         System.out.println("10 é maior que 20? "+isDezMaiorQueVinte);
         System.out.println("10 é menor que 20? "+isDezMenorQueVinte);
         System.out.println("10 é igual a 20? "+isDezIgualVinte);
@@ -29,6 +30,7 @@ public class Aula04Operadores {
         float salario = 4000F;
         boolean isDentroDaLeiMaiorQueTrinta = idade >= 30 && salario > 4612;
         boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
+
         System.out.println("isDentroDaLeiMaiorQueTrinta "+isDentroDaLeiMaiorQueTrinta);
         System.out.println("isDentroDaLeimenorQueTrinta "+isDentroDaLeiMenorQueTrinta);
 
@@ -37,5 +39,24 @@ public class Aula04Operadores {
         float ValorPlaystation = 5000;
         boolean isPlaystation5Compravel = ValorTotalContaCorrente > ValorPlaystation || ValorTotalContaPoupanca > ValorPlaystation;
         System.out.println("Play 5 vai ser compravel?? "+isPlaystation5Compravel);
+
+        // = += -= *= /= %=
+        double bonus = 1800; //1800
+        bonus += 1000; // 2800
+        bonus -= 1000; // 1800
+        bonus *= 2;
+        bonus /= 2;
+        bonus %= 2;
+        System.out.println(bonus);
+
+        // ++ --
+        int contador = 0;
+        contador += 1; //contador = contador + 1
+        contador++;
+        contador--;
+        ++contador;
+        --contador;
+        int contador2 = 0;
+        System.out.println(++contador2);
     }
 }
