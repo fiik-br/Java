@@ -1,5 +1,5 @@
 package Programmer.fiik.Ot;
-//Author: Otávio Lisboa | 25/10/26 | 03:025AM
+//Author: Otávio Lisboa | 25/10/26 | 19:33M
 public class Aula04Operadores {
     public static void main(String[] args) {
         // + - / *
@@ -23,5 +23,14 @@ public class Aula04Operadores {
         System.out.println("10 é igual a 20? "+isDezIgualVinte);
         System.out.println("10 é igual a 10? "+isDezIgualDez);
         System.out.println("10 é diferente de 10? "+isDezDiferenteDez);
+
+        // && (AND) || (or) !
+        int idade = 29;
+        float salario = 4000F;
+        boolean isDentroDaLeiMaiorQueTrinta = idade >= 30 && salario > 4612;
+        boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
+        System.out.println("isDentroDaLeiMaiorQueTrinta "+isDentroDaLeiMaiorQueTrinta);
+        System.out.println("isDentroDaLeimenorQueTrinta "+isDentroDaLeiMenorQueTrinta);
+
     }
 }
