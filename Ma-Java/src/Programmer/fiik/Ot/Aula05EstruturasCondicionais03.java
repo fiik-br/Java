@@ -1,5 +1,5 @@
 package Programmer.fiik.Ot;
-//Author: Otávio Lisboa | 27/10/26 | 03:10AM
+//Author: Otávio Lisboa | 27/10/26 | 12:10PM
 public class Aula05EstruturasCondicionais03 {
     public static void main(String[] args) {
         double salario = 6000;
