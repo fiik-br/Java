@@ -1,5 +1,5 @@
 package Programmer.fiik.Ot;
-//Author: Otávio Lisboa | 29/10/26 | 13:18PM
+//Author: Otávio S. Lisboa | 29/10/26 | 13:18PM
 public class Aula06EstruturasDeRepeticao04 {
     public static void main(String[] args) {
         // Dado o valor de um carro, descubra em quantas vezes ele pode ser parcelado
