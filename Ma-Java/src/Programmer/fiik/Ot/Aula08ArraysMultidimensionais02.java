@@ -1,3 +1,5 @@
+package Programmer.fiik.Ot;
+//Author: Otávio S. Lisboa | 05/11/26 | 19:00PM
 public class Aula08ArraysMultidimensionais02 {
     public static void main(String[] args) {
         int[] array = {1,2,3};
